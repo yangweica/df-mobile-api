@@ -1,0 +1,25 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Trace",
+            "Microsoft.AspNetCore": "Trace"
+        }
+    },
+    "AllowedHosts": "*",
+    "PodKeyVaultUri": "https://app541-dfma-dev-kv.vault.azure.net/",
+    "Dfid": {
+        "Audience": "df.mobile",
+        "Url": "https://dfiddev.np.dayforcehcm.com",
+        "AllowedIssuers": [
+            "https://dfiddev.np.dayforcehcm.com"
+        ]
+    },
+    "GraphQl": {
+        "AllowIntrospection": true
+    },
+    "MobileSiteConfiguration": {
+        "ClientOSType": 1,
+        "ClientOSVersion": "14.4.2",
+        "ClientAppVersion": "66.4.0"
+    }
+}
